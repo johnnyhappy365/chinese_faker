@@ -20,6 +20,9 @@ main() {
     faker.image.objects();
     faker.image.buildings();
     faker.image.avatar();
+
+    // city
+    faker.city.name();
 }
 ```
 
