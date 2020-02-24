@@ -1,4 +1,5 @@
 import 'package:chinese_faker/data/city/city_names.dart';
+import 'package:chinese_faker/data/city/words.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:chinese_faker/chinese_faker.dart';
 
@@ -25,5 +26,13 @@ void main() {
     expect(cityNames.contains(faker.city.name()), true);
     expect(cityNames.contains(faker.city.name()), true);
     expect(cityNames.contains(faker.city.name()), true);
+  });
+
+  test('test word rand', () {
+    expect(words.contains(faker.word.rand()), true);
+    expect(words.contains(faker.word.rand()), true);
+    expect(words.contains(faker.word.rand()), true);
+    expect(words.contains(faker.word.rand()), true);
+    expect(words.contains(faker.word.rand()), true);
   });
 }

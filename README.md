@@ -23,6 +23,9 @@ main() {
 
     // city
     faker.city.name();
+
+    // word
+    faker.word.rand();
 }
 ```
 
